@@ -18,11 +18,7 @@ public static void main(String[] args){
     if (ch>='A' && ch<='Z') System.out.println("Uppercase");
     if (ch>='a'&& ch<='z') System.out.println("lowercase");
     int i=1;
-    while(true){
-        i++;
-        System.out.println(i);
-    }
-
+    
   
     }
 
