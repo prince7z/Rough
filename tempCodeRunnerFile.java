@@ -1,1 +1,2 @@
-System.out.println( "str 1 length exceeded  ")
+  H.start();
+        t.count(9);

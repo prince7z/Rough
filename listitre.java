@@ -11,26 +11,24 @@ public class listitre {
         list.add("Radhe");
         list.add("hari");
         //System.out.println(list);
+        int c=0;
         ListIterator <String> ne=list.listIterator ();
-        while (ne.hasNext()){
-            String data =ne.next();
-         if (data.length()<=3){
-            list2.add("Hello");
-         }
-         else {
-            list2.add(data);
-         }
+             while (ne.hasNext()){
+             String data =ne.next();}
+        //
+             while(ne.hasPrevious()){
+                c++;    
+            if (c==4){
+                ne.set("bye");
 
+            }
+            
         }
-        // while(ne.hasPrevious()){
-        //     String data =ne.previous();
-        //     System.out.println(data);
-
-        // }
-        System.out.println(list2);
+        System.out.println(list);
+        }
+       
+       
 
         
     }
 
-
-}
